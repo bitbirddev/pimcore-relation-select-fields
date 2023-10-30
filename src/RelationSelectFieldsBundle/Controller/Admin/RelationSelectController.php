@@ -3,7 +3,7 @@ namespace RelationSelectFieldsBundle\Controller\Admin;
 use Pimcore\Model\Asset;
 use Pimcore\Model\Document;
 use Pimcore\Model\DataObject;
-use Pimcore\Bundle\AdminBundle\Controller\AdminController;
+use Pimcore\Bundle\AdminBundle\Controller\AdminAbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * @Route("/admin/object-fields/relation-select")
  */
-class RelationSelectController extends AdminController {
+class RelationSelectController extends AdminAbstractController {
 
     /**
      * Produces the json to feed the roles selector

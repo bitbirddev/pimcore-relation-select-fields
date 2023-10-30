@@ -9,7 +9,7 @@ class ManyToOneRelationSelect extends ClassDefinition\Data\ManyToOneRelation {
      *
      * @var string
      */
-    public $fieldtype = "manyToOneRelationSelect";
+    public string $fieldtype = "manyToOneRelationSelect";
     /**
      * @var boolean
      */

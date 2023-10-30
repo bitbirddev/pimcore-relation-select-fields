@@ -9,7 +9,7 @@ class ManyToManyRelationSelect extends ClassDefinition\Data\ManyToManyRelation {
      *
      * @var string
      */
-    public $fieldtype = "manyToManyRelationSelect";
+    public string $fieldtype = "manyToManyRelationSelect";
     /**
      * @var boolean
      */
