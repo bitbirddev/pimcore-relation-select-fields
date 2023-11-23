@@ -3,7 +3,10 @@
   "type": "pimcore-bundle",
   "license": "GPL-3.0+",
   "description": "Pimcore 6.x Relation-Fields for DataObjects and Documents",
-  "keywords": ["pimcore", "dataobject"],
+  "keywords": [
+    "pimcore",
+    "dataobject"
+  ],
   "homepage": "https://github.com/nambu-ch/pimcore-relation-select-fields",
   "authors": [
     {
@@ -15,7 +18,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "RelationSelectFieldsBundle\\": "src/RelationSelectFieldsBundle"
+      "RelationSelectFieldsBundle\\": "src/"
     }
   },
   "extra": {
@@ -26,5 +29,7 @@
     }
   },
   "require": {
+    "pimcore/pimcore": "^11.0",
+    "pimcore/admin-ui-classic-bundle": "^1.2"
   }
 }
