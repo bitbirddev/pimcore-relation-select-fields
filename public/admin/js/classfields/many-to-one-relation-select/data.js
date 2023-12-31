@@ -8,7 +8,7 @@
  * It is also available through the world-wide-web at this URL:
  * http://www.pimcore.org/license
  *
- * @copyright  Copyright (c) 2017 nambu GmbH (http://www.nambu.ch)
+ * @copyright  Copyright (c) 2023 bitbird development (http://www.bitbird.de)
  * @license    http://www.pimcore.org/license     New BSD License
  */
 

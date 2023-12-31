@@ -23,7 +23,6 @@ class RelationSelectController extends AdminAbstractController
     #[Route("/objects-list")]
     public function optionsAction(Request $request)
     {
-        ray("optionsaction");
         $recursive = $request->get("recursive", false) === true || $request->get("recursive") == "true";
         $objectsAllowed = $request->get("objectsAllowed") === true || $request->get("objectsAllowed") == "true";
         $assetsAllowed = $request->get("assetsAllowed") === true || $request->get("assetsAllowed") == "true";

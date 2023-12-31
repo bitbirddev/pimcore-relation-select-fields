@@ -1,18 +1,18 @@
 {
-  "name": "nambu-ch/pimcore-relation-select-fields",
+  "name": "bitbirddev/pimcore-relation-select-fields",
   "type": "pimcore-bundle",
   "license": "GPL-3.0+",
-  "description": "Pimcore 6.x Relation-Fields for DataObjects and Documents",
+  "description": "Pimcore 10 Relation-Fields for DataObjects and Documents",
   "keywords": [
     "pimcore",
     "dataobject"
   ],
-  "homepage": "https://github.com/nambu-ch/pimcore-relation-select-fields",
+  "homepage": "https://github.com/bitbirddev/pimcore-relation-select-fields",
   "authors": [
     {
-      "name": "nambu GmbH Dominik Schnieper",
-      "email": "ds@nambu.ch",
-      "homepage": "https://www.nambu.ch/",
+      "name": "bitbird development",
+      "email": "bs@bitbird.de",
+      "homepage": "https://www.bitbird.de",
       "role": "Developer"
     }
   ],

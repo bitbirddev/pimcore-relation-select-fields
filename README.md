@@ -1,4 +1,4 @@
-# nambu - RelationSelectFieldsBundle
+# bitbirddev - RelationSelectFieldsBundle
 
 ### Dropdowns for relations in documents and dataobjects
 
@@ -6,9 +6,10 @@
 
 #### Usage in Documents
 
-Show a selectbox instead of the classic drag'n'drop field to configure relations inside a document. 
+Show a selectbox instead of the classic drag'n'drop field to configure relations inside a document.
 
 Relation field for one object.
+
 ```
 echo $view->relation_select("my-name", [
     "objectFolder" => 33,
@@ -20,6 +21,7 @@ echo $view->relation_select("my-name", [
 ```
 
 Relation field for multiple objects.
+
 ```
 echo $view->relations_select("my-name", [
     "objectFolder" => 34,
@@ -30,11 +32,13 @@ echo $view->relations_select("my-name", [
 ```
 
 Base-Options for all relations.
+
 ```
 types: array with allowed types of object, asset, document
 ```
 
 Possible options for DataObject relations.
+
 ```
 objectFolder: ID or path of a folder
 classes: Filter for DataObject Types
@@ -43,12 +47,14 @@ recursive: Load DataObjects recursive
 ```
 
 Possible options for Assets relations.
+
 ```
 assetFolder: ID or path of a folder
 assetTypes: Filter for types (e.g. folder, image, ...)
 ```
 
 Possible options for Document relations.
+
 ```
 documentFolder: ID or path of a folder
 documentTypes: Filter for types (e.g. page, email, ...)
