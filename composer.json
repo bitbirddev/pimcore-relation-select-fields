@@ -2,7 +2,7 @@
   "name": "bitbirddev/pimcore-relation-select-fields",
   "type": "pimcore-bundle",
   "license": "GPL-3.0+",
-  "description": "Pimcore 10 Relation-Fields for DataObjects and Documents",
+  "description": "Pimcore 10.x | 11.x Relation-Fields for DataObjects and Documents",
   "keywords": [
     "pimcore",
     "dataobject"
