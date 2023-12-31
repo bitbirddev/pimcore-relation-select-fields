@@ -29,7 +29,7 @@
     }
   },
   "require": {
-    "pimcore/pimcore": "^11.0",
+    "pimcore/pimcore": "^10.0|^11.0",
     "pimcore/admin-ui-classic-bundle": "^1.2"
   }
 }
